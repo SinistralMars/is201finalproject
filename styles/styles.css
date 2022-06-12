@@ -11091,17 +11091,17 @@ blockquote {
     position: fixed;
     top: -83px;
     transition: transform 0.2s;
-    border-bottom: 1px solid white;
-    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px rgba(50, 50, 50, 0.9);
+    background-color: rgba(50, 50, 50, 0.9);
   }
   #mainNav.is-fixed .navbar-brand {
-    color: #212529;
+    color: #fff;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
     color: #0085A1;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
-    color: #212529;
+    color: #fff;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
     color: #0085A1;
@@ -11217,7 +11217,7 @@ header.masthead .site-heading .h1 {
 }
 
 .post-preview > a {
-  color: #212529;
+  color: #fff;
 }
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
